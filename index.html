@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./public/css/tailwind.css" rel="stylesheet" />
+  </head>
+  <body class="font-Montserrat">
+    <nav></nav>
+    <div id="tab_bar"></div>
+    <section class="w-full h-screen">
+      <div id="home">
+        <div class="w-full h-3/4">
+          <div
+            class="w-full h-full flex flex-col absolute items-center py-4 space-y-96"
+          >
+            <input
+              class="w-3/4 p-3 text-xl rounded-full text-center shadow-md transition-all ease-in-out duration-300 focus:w-11/12"
+              type="search"
+              name=""
+              placeholder="San Francisco"
+            />
+            <button
+              class="text-xl text-primary bg-white font-semibold w-2/4 p-4 rounded-full shadow-md transition delay-100 hover:scale-110 hover:bg-primary duration-300 hover:text-white"
+            >
+              Explorar más
+            </button>
+          </div>
+          <div class="w-full h-full">
+            <img src="./public/img/sanFrancisco.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div id="recomendadas" class="p-6">
+        <p class="text-2xl text-primary font-semibold">Recomendados</p>
+        <div class="flex flex-row space-x-6 w-auto overflow-x-auto">
+          <div class="Card">
+            <div class="bg-norway Card-img"></div>
+            <div class="bg-secondary h-2/5 w-full rounded-b-md p-3">
+              <p class="text-xl text-white font-bold">Norway</p>
+              <p class="text-white text-sm">Esto es Noruega bro</p>
+            </div>
+          </div>
+          <div class="Card">
+            <div class="bg-new_york Card-img"></div>
+            <div class="bg-white h-2/5 w-full rounded-b-md p-3">
+              <p class="text-xl text-terciary font-bold">New York</p>
+              <p class="text-terciary text-sm">Esto es Nueva York bro</p>
+            </div>
+          </div>
+          <div class="Card">
+            <div class="bg-yosemite Card-img"></div>
+            <div class="bg-secondary h-2/5 w-full rounded-b-md p-3">
+              <p class="text-xl text-white font-bold">Yosemite</p>
+              <p class="text-white text-sm">
+                Esto es el Parque Nacional de Yosemite.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="rentas_destacadas" class="px-8 w-full h-full">
+        <p class="text-2xl text-primary font-semibold pb-6">
+          Rentas Destacadas
+        </p>
+        <div class="flex flex-col space-y-8">
+          <div class="bg-chicago h-96 w-full bg-cover rounded-xl shadow-md">
+            <p class="font-extrabold text-2xl text-white pt-7 px-8 pb-3">
+              Chicago
+            </p>
+            <p class="text-md pl-8 mr-12 text-white">
+              2 rooms, bathroom and kitchen.
+            </p>
+          </div>
+          <div class="bg-LA h-96 w-full bg-cover rounded-xl shadow-md">
+            <p class="font-extrabold text-2xl text-white pt-7 px-8 pb-3">
+              Los Angeles
+            </p>
+            <p class="text-md pl-8 mr-12 text-white">
+              2 rooms, bathroom and kitchen.
+            </p>
+          </div>
+          <div class="bg-miami h-96 w-full bg-cover rounded-xl shadow-md">
+            <p class="font-extrabold text-2xl text-white pt-7 px-8 pb-3">
+              Miami
+            </p>
+            <p class="text-md pl-8 mr-12 text-white">
+              3 rooms, 2 bathroom and a kitchen.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full h-full bg-red-200" id="faqs">
+        <div></div>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+.myenv
+node_modules
+public
+dist

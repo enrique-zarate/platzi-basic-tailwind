@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card {
+  @apply w-52 h-64 shadow-lg mt-6 rounded-md flex-none transition-all hover:-translate-y-2 hover:translate-x-2 hover:shadow-2xl;
+}
+
+.Card-img {
+  @apply h-3/5 w-full bg-cover rounded-t-md shadow-md;
+}
+
+.test {
+  @apply transition ease-in-out duration-300;
+}
